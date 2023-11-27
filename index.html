@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina moda</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<header class="header">
+     <div class="menu container">
+          <a href="#" class="logo">Mo'a</a>
+          <input type="checkbox" id="menu" />
+          <label for="menu">
+              <img src="assets/img/menu.png" class="menu-icono" alt="menu">
+          </label>
+          <nav class="navbar">
+              <ul>
+                 <li><a href="#">Inicio</a></li>
+                 <li><a href="#">Servicios</a></li>
+                 <li><a href="#">Productos</a></li>
+                 <li><a href="#">Contacto</a></li>
+             </ul>
+         </nav>
+         <div>
+             <ul>
+                <li class="submenu">
+                    <img src="assets/img/car.svg" id="img-carrito" alt="carrito">
+                    <div id="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                   <th>Imagen</th>
+                                   <th>Nombre</th>
+                                   <th>Precio</th>
+                               </tr>
+                           </thead>
+                           <tbody></tbody>
+                       </table>
+                       <a href="#" id="vaciar-carrito" class="btn-2">vaciar carrito</a>
+                   </div>
+               </li>
+           </ul>
+       </div>
+   </div>
+
+   <div class="header-content container">
+       <div class="header-img">
+           <img src="assets/img/pcpal.webp" alt="">
+       </div>
+       <div class="header-txt">
+           <h1>Precios especiales</h1>
+           <p>Viste con el mejor estilo de Mo'a</p>
+           <a href="#" class="btn-1">informacion</a>
+       </div>
+
+   </div>
+</header>
+
+<section class="ofert container">
+    <div class="ofert-1">
+        <div class="ofert-img">
+             <img src="assets/img/chaquetauno.webp" alt="">
+        </div>
+        <div class="ofert-txt">
+             <h3>Camisetas y Chaquetas</h3>
+             <a href="#" class="btn-2">informacion</a>
+        </div>
+    </div>
+
+    <div class="ofert-1">
+        <div class="ofert-img">
+             <img src="assets/img/tenissune.png" alt="">
+        </div>
+        <div class="ofert-txt">
+             <h3>Tennis  y zapatos importados</h3>
+             <a href="#" class="btn-2">informacion</a>
+        </div>
+    </div>
+
+    <div class="ofert-1">
+        <div class="ofert-img">
+             <img src="assets/img/bolsoone.png" alt="">
+        </div>
+        <div class="ofert-txt">
+             <h3>Morrales y Bolsos</h3>
+             <a href="#" class="btn-2">informacion</a>
+        </div>
+    </div>
+</section>
+
+<main class="products container" id="lista-1">
+
+    <h2>Productos De Colección</h2>
+
+    <div class="product-content">
+
+        <div class="product">
+            <img src="assets/img/morraldos.jpg" alt="">
+            <div class="product-txt">
+                <h3>LOUIS VUITTON LV x NBA monograma marrón M45581 #AH590 S</h3>
+                <p>calidad Premium</p>
+                <p class="precio">$18'250'531</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="assets/img/2.png" alt="">
+            <div class="product-txt">
+                <h3>Chaqueta para hombre Mountain Gear</h3>
+                <p>calidad premium</p>
+                <p class="precio">$450'000</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="assets/img/polodos.webp" alt="">
+            <div class="product-txt">
+                <h3>Versace Polo con Medusa</h3>
+                <p>calidad premium</p>
+                <p class="precio">$3'658'336</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="assets/img/tenisdos.png" alt="">
+            <div class="product-txt">
+                <h3>Valentino Garavani tenis VL7N</h3>
+                <p>calidad premium</p>
+                <p class="precio">$3'214'227</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="assets/img/bolsodos.jpg" alt="">
+            <div class="product-txt">
+                <h3>Bolso bandolera Louis Vuitton M44840 rosa </h3>
+                <p>calidad premium</p>
+                <p class="precio">$13'621'000</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="assets/img/zapatilla.webp" alt="">
+            <div class="product-txt">
+                <h3>Saint Laurent
+                    zapatillas Opyum con tacón de 100mm   
+                    </h3>
+                <p>calidad premium</p>
+                <p class="precio">$12'597'202</p>
+                <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+<section class="icons container">
+    <div class="icon-1">
+        <div class="icon-img">
+            <img src="assets/img/i1.svg" alt="">
+        </div>
+        <div class="icon-txt">
+            <h3>Prendas ideales para tus looks casuales.</h3>
+            <p>
+                En este artículo repasamos todas las opciones disponibles para ayudarte a elegir la prenda perfecta para tu ocasión.
+            </p>
+        </div>
+    </div>
+
+    <div class="icon-1">
+        <div class="icon-img">
+            <img src="assets/img/i2.svg" alt="">
+        </div>
+        <div class="icon-txt">
+            <h3>Nuestros tenis y zapatos inspirarán elegantes looks</h3>
+            <p>
+                Te aseguramos que ¡Vas a marcar la diferencia y te van a encantar!
+            </p>
+        </div>
+    </div>
+
+    <div class="icon-1">
+        <div class="icon-img">
+            <img src="assets/img/i3.svg" alt="">
+        </div>
+        <div class="icon-txt">
+            <h3>Compra online Bolsos y morrales de tus marcas favoritas</h3>
+            <p>
+                Aquí encontrarás nuestra guía completa sobre todas las distintas partes de la mochila, desde los compartimientos hasta las correas y los bucles.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="blog container">
+    <div class="blog-1">
+        <img src="assets/img/artiuno.avif" alt="">
+        <h3>Moda Primavera-Verano 2024</h3>
+        <p>
+            Como es habitual en el calendario de la moda, las principales capitales de donde nacen las tendencias serán el telón de fondo
+             de las marcas que desfilarán en las próximas semanas de la moda de Nueva York, Milán, Londres y París. 
+             A estas grandes ciudades se suman sitios como Copenhague, que desde hace tiempo también forma parte de la conversación central 
+             de la moda. Seguido también vendrán las propuestas de las urbes de Latinoamérica, donde el sistema de la moda hace un eco cada vez
+              más fuerte con sus propuestas, como se ha visto en México, Colombia, Ecuador y Costa Rica, por mencionar algunas.
+        </p>
+    </div>
+
+    <div class="blog-1">
+        <img src="assets/img/articudos.avif" alt="">
+        <h3>Moda infantil primavera-verano 2024</h3>
+        <p>
+            La temporada primavera-verano 2024 promete ser emocionante para la moda infantil. Los colores llamativos, los divertidos volantes,
+             un versátil denim, el azul clásico y los estampados florales y vibrantes liderarán la tendencia. 
+             Ya sea que seas un padre buscando actualizar el guardarropa de tu hijo o un diseñador en busca de crear la próxima gran tendencia, 
+             estas tendencias de moda tienen algo para todos. Sin embargo, es importante recordar que el estilo debe ir de la mano con la
+              comodidad y la practicidad, garantizando que los niños se sientan seguros y cómodos con su ropa.
+        </p>
+    </div>
+
+    <div class="blog-1">
+        <img src="assets/img/artitres.avif" alt="">
+        <h3>La moda deportiva sigue su ‘sprint’</h3>
+        <p>
+            El 36% del crecimiento provendrá de Norteamérica, que es ya el mayor mercado para el sector.
+             El negocio engordará en 157.100 millones de dólares en un lustro.
+             Esta buena evolución del sector se refleja también en los resultados anuales de los gigantes del sector. Nike,
+            que cierra su ejercicio en mayo, terminó los nueve primeros meses (de junio a febrero) con un aumento de las ventas del 4%,
+            hasta 32.194 millones de dólares, y disparó su beneficio un 27%.
+           Adidas, por su parte, concluyó el ejercicio 2020 (finalizado en diciembre) con una contracción del 16%, pero logró salvar el año 
+           en negro, con un beneficio de 4343 millones de euros. En el cuarto trimestre, la caída de ventas se moderó hasta sólo el 5%. Decathlon,
+            el número tres del sector a escala global, redujo sus ingresos sólo un 8% el año pasado, hasta 11.400 millones de euros,
+             y ganó 550 millones, casi en línea con el ejercicio anterior.
+        </p>
+    </div>
+</section>
+
+<form class="Formulario">
+    
+    <div class="relleno">   
+        <h1>Subcríbete a nuestra página</h1>
+    <h4><small> sé el primero en recibir las últimas noticias sobre tendencias, promociones y mucho más!</small></h4>
+        <div>
+      
+            <label for="">NOMBRE:</label>
+            <input type="text" placeholder="Kevin"/>
+          </div>
+      
+          <div>
+            <label for="">APELLIDO:</label>
+            <input type="text" placeholder="Rincon"/>
+          </div>
+          <div>
+            <label for="">TELEFONO</label>
+            <input type="number" placeholder="3152758601"/>
+          </div>
+      
+          <section>
+            <label for="">CORREO:</label>
+            <input type="email" placeholder="kmzuluagari@cesde.net" />
+          </section>
+          <div>
+            <label for="">GENERO:</label>
+            <label for="">MASCULINO</label>
+            <input type="checkbox" />
+            <label for="">FEMENINO</label>
+            <input type="checkbox" />
+            <label for="">OTRO</label>
+            <input type="checkbox" />
+          </div>
+          <h5>Quiero dar de baja mi suscripción!!!</h5>
+    </div>
+  </form>
+
+
+<footer class="footer">
+
+    <div class="footer-content container">
+
+        <div class="link">
+            <h3>contacto</h3>
+            <ul>
+                <li><a href="#">Tel: 3213456784</a></li>
+                <li><a href="#">Pbx: 01 8000 31 65 78</a></li>
+                <li><a href="#">Escribenos</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>Quienes somos</h3>
+            <ul>
+                <li><a href="#">Cultura</a></li>
+                <li><a href="#">Trabaja aquí</a></li>
+                <li><a href="#">La vida en mo'</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>Ayuda</h3>
+            <ul>
+                <li><a href="#">Envíos</a></li>
+                <li><a href="#">Cambios y Garantías</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>Siguenos</h3>
+            <ul>
+                <li><a href="#">facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twiter</a></li>
+
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <script src="assets/js/scrip.js"></script>
+</body>
+</html>
